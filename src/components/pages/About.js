@@ -1,5 +1,5 @@
 import React from "react";
-import Headshot from "../../assets/cover/cover-image.jpg"
+import Headshot from "../../assets/pic/cover-image.jpg"
 import { Container, Row } from "react-bootstrap";
 
 export default function About() {

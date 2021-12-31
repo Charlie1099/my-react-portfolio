@@ -1,11 +1,12 @@
 import React, { useState } from "react";
-import Nav from "../Nav/index"
+import NavTabs from "../Nav/index"
 import About from "../pages/About"
 import Project from "../Project/index"
 import Contact from "../pages/Contact"
 import Resume from "../pages/Resume"
 import "../../App.css"
 import { Navbar, Container } from "react-bootstrap"
+
 
 function Header() {
     const [currentPage, setCurrentPage] = useState("About")
@@ -33,7 +34,7 @@ function Header() {
                         <Navbar.Brand className="col-5" herf="/">Cameron Charlesworth<br/><span>FULL STACK WEB DEVELOPER</span></Navbar.Brand>
                         <Navbar.Toggle className="custom-toggler col-2" aria-controls="navbarCollapsableContent"/>
                         <Navbar.Collapse className="flex-row-reverse" id="navbarCollapsableContent">
-                                <Nav currentPage={currentPage} handlePageChange={handlePageChange} />
+                                <NavTabs currentPage={currentPage} handlePageChange={handlePageChange} />
                             </Navbar.Collapse> 
                     </Container>
                 </Navbar>
