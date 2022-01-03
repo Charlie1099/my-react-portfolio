@@ -1,6 +1,7 @@
 import React from "react";
-// import { FagGithub, FaLinkedin, FaEnvelope, } from "react-icons/fa"
+import { FaGithub, FaLinkedin, FaEnvelope, } from "react-icons/fa"
 import { Container, Row, Col } from "react-bootstrap";
+import "../../App.css"
 
 function Footer() {
     return (
@@ -8,13 +9,13 @@ function Footer() {
             <Row>
                 <Col className="d-flex col-12 justify-content-end">
                     <a className="cmb-fa m-2" href="https://www.linkedin.com" target="_blank" rel="noreferrer">
-                        {/* <FaLinkedin /> */}
+                        <FaLinkedin />
                     </a>
                     <a className="cmb-fa m-2" href="https://github.com/Charlie1099" target="_blank" rel="noreferrer">
-                        {/* <FagGithub /> */}
+                        <FaGithub />
                     </a>
                     <a className="cmb-fa m-2" href="mailto:cdcharlesworth@gmail.com?subject=Contact from Portfolio Site" target="_blank" rel="noreferrer">
-                        {/* <FaEnvelope /> */}
+                         <FaEnvelope />
                     </a>
                 </Col>
             </Row>

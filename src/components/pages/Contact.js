@@ -16,8 +16,8 @@ export default function Contact() {
         <Container>
             <section className="contact mb-5">
                 <h1 className="text-center">This is how you can contact me</h1>
-                <p className="text-center mx-auto">Id be happy to work Full time or paid internship</p>
-                <hr/>
+                <p className="text-center mx-auto">Id be happy to work Full time or internship</p>
+                <hr />
 
                 <Row>
                     <Col md={9}>

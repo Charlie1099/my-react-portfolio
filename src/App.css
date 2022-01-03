@@ -46,7 +46,7 @@
   --c-ddgrey: #1d1f22;
   --c-honolulublue: #064074;
   --c-metallicseaweed: #348693;
-  --c-prussianblue: #003049;
+  --c-prussianblue: #47aaec;
   --c-ultramarine: #414a75;
   --c-bluesapphire: #245564;
 }
@@ -129,7 +129,7 @@ h5 {
 }
 
 .cmb-headshot {
-  box-shadow: 8px 10px 10px var(--c-ultramarine);
+  /* box-shadow: 8px 10px 10px var(--c-ultramarine); */
   border: .02em solid var(--c-lneutral);
 }
 

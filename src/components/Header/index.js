@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import NavTabs from "../Nav/index"
 import About from "../pages/About"
-import Project from "../Project/index"
+import Portfolio from "../pages/Portfolio"
 import Contact from "../pages/Contact"
 import Resume from "../pages/Resume"
 import "../../App.css"
@@ -15,8 +15,8 @@ function Header() {
         if (currentPage === "About") {
             return <About />
         }
-        if (currentPage === "Porject") {
-            return <Project />
+        if (currentPage === "Portfolio") {
+            return <Portfolio />
         }
         if (currentPage === "Contact") {
             return <Contact />
