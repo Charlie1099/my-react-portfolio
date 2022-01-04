@@ -24,7 +24,7 @@ export default function Portfolio() {
                             <div className="card-body">
                                 <h5 className="card-title">Coding Quiz</h5>
                                 <p className="card-text">
-                                    Languages/Other used to bulid this project: HTML | CSS | JS
+                                    Languages/Other used to bulid this project:<br/> HTML | CSS | JS
                                 </p>
                                 <a href="https://charlie1099.github.io/coding-quiz" target="_blank" rel="noreferrer nooper" className="btn btn-primary">Deployed App on GitHub</a>
                                 <a href="https://github.com/Charlie1099/coding-quiz" target="_blank" rel="noreferrer nooper" className="btn btn-secondary">GitHub Repo</a>
@@ -40,7 +40,8 @@ export default function Portfolio() {
                             <div className="card-body">
                                 <h5 className="card-title">Day Scheduler</h5>
                                 <p className="card-text">
-                                    Languages/Other used to bulid this project: HTML | CSS | JS | Third pary API
+                                    Languages/Other used to bulid this project:<br/>
+                                     HTML | CSS | JS | Third pary API
                                 </p>
                                 <a href="https://charlie1099.github.io/day-scheduler" target="_blank" rel="noreferrer nooper" className="btn btn-primary">Deployed App on GitHub</a>
                                 <a href="https://github.com/Charlie1099/day-scheduler" target="_blank" rel="noreferrer nooper" className="btn btn-secondary">GitHub Repo</a>
@@ -56,7 +57,8 @@ export default function Portfolio() {
                             <div className="card-body">
                                 <h5 className="card-title">Employee Tracker</h5>
                                 <p className="card-text">
-                                    Languages/Other used to bulid this project: SQL | JS | npm inquirer | npm chalk
+                                    Languages/Other used to bulid this project:<br/>
+                                     SQL | JS | npm inquirer | npm chalk
                                 </p>
                                 <a href="https://watch.screencastify.com/v/QYKC6NOmx5YDSgFbexXN" target="_blank" rel="noreferrer nooper" className="btn btn-primary">Watch a short clip of the App</a>
                                 <a href="https://github.com/Charlie1099/employee-tracker" target="_blank" rel="noreferrer nooper" className="btn btn-secondary">GitHub Repo</a>
@@ -72,7 +74,8 @@ export default function Portfolio() {
                         <div className="card-body">
                             <h5 className="card-title">Node Generated ReadeMe</h5>
                             <p className="card-text">
-                                Languages/Other used to bulid this project: JS | npm | Node.Js
+                                Languages/Other used to bulid this project:<br/>
+                                 JS | npm | Node.Js
                             </p>
                             <a href="https://watch.screencastify.com/v/7yp9YRZyQFDSj8l64ruv" target="_blank" rel="noreferrer nooper" className="btn btn-primary">Watch a short clip of the App</a>
                             <a href="https://github.com/Charlie1099/employee-tracker" target="_blank" rel="noreferrer nooper" className="btn btn-secondary">GitHub Repo</a>
@@ -88,7 +91,8 @@ export default function Portfolio() {
                         <div className="card-body">
                             <h5 className="card-title">Team Profile Generator</h5>
                             <p className="card-text">
-                                Languages/Other used to bulid this project: JS | npm | Node.Js | Object Oriented Programming
+                                Languages/Other used to bulid this project:<br/>
+                                 JS | npm | Node.Js | Object Oriented Programming
                             </p>
                             <a href="https://watch.screencastify.com/v/ywDrDBsMqopCeJgsu1ZT" target="_blank" rel="noreferrer nooper" className="btn btn-primary">Watch a short clip of the App</a>
                             <a href="https://github.com/Charlie1099/Team-Profile-Generator" target="_blank" rel="noreferrer nooper" className="btn btn-secondary">GitHub Repo</a>
@@ -104,7 +108,8 @@ export default function Portfolio() {
                         <div className="card-body">
                             <h5 className="card-title">Team Profile Generator</h5>
                             <p className="card-text">
-                                Languages/Other used to bulid this project: HTML | CSS | JS | Server side API
+                                Languages/Other used to bulid this project:<br/>
+                                 HTML | CSS | JS | Server side API
                             </p>
                             <a href="https://charlie1099.github.io/weather-tracker" target="_blank" rel="noreferrer nooper" className="btn btn-primary">Deployed App on GitHub</a>
                             <a href="https://github.com/Charlie1099/weather-tracker" target="_blank" rel="noreferrer nooper" className="btn btn-secondary">GitHub Repo</a>
@@ -120,7 +125,8 @@ export default function Portfolio() {
                         <div className="card-body">
                             <h5 className="card-title">Book Finder "Group project"</h5>
                             <p className="card-text">
-                                Languages/Other used to bulid this project: HTML | CSS | JS | Server side API
+                                Languages/Other used to bulid this project:<br/>
+                                 HTML | CSS | JS | Server side API
                             </p>
                             <a href="https://conleyannmarie.github.io/book-finder/" target="_blank" rel="noreferrer nooper" className="btn btn-primary">Deployed App on GitHub</a>
                             <a href="https://github.com/conleyannmarie/book-finder" target="_blank" rel="noreferrer nooper" className="btn btn-secondary">GitHub Repo</a>

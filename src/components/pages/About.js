@@ -14,7 +14,7 @@ export default function About() {
                     </div>
                     <div className="col-sm-12 col-md-9 mr-2 mb-4">
                         <h1>Good Day!</h1>
-                        <p>Hi my name is cameron and I am aiming </p>
+                        <p>Hi my name is cameron and I am aiming to becume a Junior Software Developer I have recently completed </p>
                     </div>
                 </Row>
 

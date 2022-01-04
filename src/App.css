@@ -24,6 +24,7 @@ body {
   line-height: 1.625rem !important;
   font-weight: 300 !important;
   font-style: normal; 
+ 
 }
 
 main {
@@ -128,7 +129,6 @@ h5 {
   background-color: var(--c-prussianblue) !important;
   border: .1em solid var(--c-metallicseaweed) !important;
   border-radius: 10px;
-  box-shadow: 8px 10px 10px var(--c-ultramarine);
   margin: .5em 1em 1em 0;
   cursor: pointer;
 }
@@ -202,7 +202,9 @@ h5 {
   font-style: normal; 
   font-size: 1rem !important;
 }
-
+.row {
+  
+}
 /*MediaQuery for Mobile*/
 @media screen and (min-width: 0px) and (max-width: 480px) {
   main {
