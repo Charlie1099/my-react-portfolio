@@ -8,7 +8,7 @@ function Footer() {
         <Container fluid className="footer px-5">
             <Row>
                 <Col className="d-flex col-12 justify-content-end">
-                    <a className="cmb-fa m-2" href="https://www.linkedin.com" target="_blank" rel="noreferrer">
+                    <a className="cmb-fa m-2" href="https://www.linkedin.com/in/cameron-charlesworth-6b457b22a" target="_blank" rel="noreferrer">
                         <FaLinkedin />
                     </a>
                     <a className="cmb-fa m-2" href="https://github.com/Charlie1099" target="_blank" rel="noreferrer">

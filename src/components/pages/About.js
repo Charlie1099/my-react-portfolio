@@ -14,12 +14,18 @@ export default function About() {
                     </div>
                     <div className="col-sm-12 col-md-9 mr-2 mb-4">
                         <h1>Good Day!</h1>
-                        <p>Hi my name is cameron and I am aiming to becume a Junior Software Developer I have recently completed </p>
+                        <p>Hi my name is Cameron and I am aiming to becume a Junior Software Developer I have recently completed the Utah Coding
+                            Bootcamp where i had a chance to develop skills in a veriaty of Developer tools such as JavaScript, Node.js, SQL, Express.js,
+                            MVC, OOR, and PWA. <br/>
+                            <br/>
+                            I loved the callenge of learning so much over the six months that I was at the course learing the MERN stack.
+                             I look forward to learing more as my jurney on this exciting creer path has just started. 
+                            </p>
                     </div>
                 </Row>
 
                 <Row>
-                    <div className="cmb-neutralblock p-4">
+                    <div>
                         <h3>I would love to work with you!</h3>
                         <p>Please take a look around and see what i have done so far</p>
                     </div>
