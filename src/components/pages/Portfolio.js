@@ -12,7 +12,7 @@ export default function Portfolio() {
         <div className="container">
             <section id="work" className="text-center">
                 <h1 className="mb-1">Work</h1>
-                <p>This page has The most recent projects that I have done.</p>
+                <p>Current finished projects.</p>
                 <hr />
                 <div className="row">
 

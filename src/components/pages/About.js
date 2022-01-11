@@ -13,23 +13,29 @@ export default function About() {
                         </figure>
                     </div>
                     <div className="col-sm-12 col-md-9 mr-2 mb-4">
-                        <h1>Good Day!</h1>
-                        <p>Hi my name is Cameron and I am aiming to becume a Junior Software Developer I have recently completed the Utah Coding
-                            Bootcamp where i had a chance to develop skills in a veriaty of Developer tools such as JavaScript, Node.js, SQL, Express.js,
-                            MVC, OOR, and PWA. <br/>
+                        <h1 className="title">Welcome!</h1>
+                        <p>Hi, my name is Cameron and I am aiming to become a Junior Software Developer. I have recently completed the Utah Coding
+                            Bootcamp where I developed skills in a variety of developer tools including JavaScript, Node.js, SQL, Express.js,
+                            MVC, OOR, and PWA. I also had the opportunity to be a part of three class projects where we would work with 4 people and had to 
+                            communicate, deligate the work load and make GitHub issues for the project for the group and pesent the project to the teacher, teacher assistants 
+                            and cohort.
                             <br/>
-                            I loved the callenge of learning so much over the six months that I was at the course learing the MERN stack.
-                             I look forward to learing more as my jurney on this exciting creer path has just started. 
+                            <br/>
+                            I loved the challenge of learning so much over the six months that I was at the course learing the MERN stack.
+                             I look forward to learing more as my journey on this exciting creer path has just started. 
                             </p>
+                            <br/>
+                            <h3>I would love to work with you!</h3>
+                        <p>Please take a look around and get to know me and my work.</p>
                     </div>
                 </Row>
 
-                <Row>
+                {/* <Row>
                     <div>
                         <h3>I would love to work with you!</h3>
-                        <p>Please take a look around and see what i have done so far</p>
+                        <p>Please take a look around and see what I have done so far</p>
                     </div>
-                </Row>
+                </Row> */}
             </section>
         </Container>
     )

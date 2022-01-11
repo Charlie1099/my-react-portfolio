@@ -1,14 +1,14 @@
 
 :root {
-  --c-lneutral: #fdf9f9;
-  --c-neutral: #f8e5e5;
-  --c-lgrey: #6a6a6a;
+  --c-lneutral: #b6c199;
+  --c-neutral: #ffffff;
+  --c-lgrey: #000000;
   --c-grey: #333a41;
   --c-dgrey: #24292e;
   --c-ddgrey: #1d1f22;
   --c-honolulublue: #064074;
   --c-metallicseaweed: #4b6b45;
-  --c-prussianblue: #47ec91;
+  --c-prussianblue: #000000;
   --c-ultramarine: #414a75;
   --c-bluesapphire: #245564;
 }
@@ -32,6 +32,7 @@ main {
   padding-top: 8rem;
   padding-bottom: 8rem;
   background-color: var(--c-lneutral);
+  font-family:'Roboto', sans-serif ;
 }
 
 header {
@@ -40,7 +41,7 @@ header {
 
 .navbar {
   height: 6rem !important;
-  background-color: var(--c-lneutral);
+  
 }
 
 .navbar-brand {
@@ -70,6 +71,7 @@ header {
   text-decoration: none;
   background-color: var(--c-lneutral);
   transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out;
+  
 }
 
 .nav-link.active {
@@ -88,7 +90,7 @@ h2,
 h3, 
 h4, 
 h5 {
-  font-family: 'Lora', sans-serif;
+  font-family:'Lora', serif;
   color: var(--c-ddgrey) !important;
 }
 
@@ -203,9 +205,22 @@ h5 {
   font-style: normal; 
   font-size: 1rem !important;
 }
-.row {
-  
+.mb-1 {
+  font-family:'Lora', serif;
 }
+
+.text-center {
+  font-family: 'Lora', serif !important;
+}
+
+.row {
+
+justify-content: space-evenly;
+}
+
+/* .title {
+  font-family: 'Lora', serif;
+} */
 /*MediaQuery for Mobile*/
 @media screen and (min-width: 0px) and (max-width: 480px) {
   main {
