@@ -69,7 +69,7 @@ header {
   font-size: .9em !important;
   color: var(--c-lgrey);
   text-decoration: none;
-  background-color: var(--c-lneutral);
+  /* background-color: var(--c-lneutral); */
   transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out;
   
 }
@@ -214,29 +214,36 @@ h5 {
 }
 
 .row {
-
 justify-content: space-evenly;
 }
 
-/* .title {
-  font-family: 'Lora', serif;
-} */
+
+
 /*MediaQuery for Mobile*/
-@media screen and (min-width: 0px) and (max-width: 480px) {
+@media screen and (min-width: 0px) and (max-width: 978px) {
   main {
     padding-top: 6rem;
   }
 
+  
+  .cmb-headshot {
+    border: .02em solid var(--c-lneutral);
+    border-radius: 75px;
+    width: 45%;
+  }
   .navbar {
     padding: 0rem;
+    justify-content: space-between;
   }
 
   .navbar-brand {
     max-width: 50%;
+    white-space: pre-wrap;
   }
 
   .navbar-brand span {
     display: none !important;
+   
   }
 
   .card {

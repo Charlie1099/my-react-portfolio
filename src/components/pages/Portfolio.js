@@ -16,13 +16,14 @@ export default function Portfolio() {
                 <hr />
                 <div className="row">
 
-                    <div className="col-lg-4 col-md-6 p-4">
+                    <div className="col-lg-4 col-md-6 p-4 cdc">
                         <div className="card">
                             <div className="bg-image">
                                 <img src={CodingQuiz} className="img-fluid" alt="Screenshot of a coding Quiz app that you can take to test your knowledge" />
                             </div>
                             <div className="card-body">
                                 <h5 className="card-title">Coding Quiz</h5>
+                                <p>This is a quiz that helps developers test there coding knowledge</p>
                                 <p className="card-text">
                                     Languages/Other used to bulid this project:<br/> HTML | CSS | JS
                                 </p>
@@ -39,6 +40,8 @@ export default function Portfolio() {
                             </div>
                             <div className="card-body">
                                 <h5 className="card-title">Day Scheduler</h5>
+                                <p>Day scheduler is a app that you can add tasks which will show you if you are
+                                    past the time or if you are well with in the time frame for the task</p>
                                 <p className="card-text">
                                     Languages/Other used to bulid this project:<br/>
                                      HTML | CSS | JS | Third pary API
@@ -56,6 +59,10 @@ export default function Portfolio() {
                             </div>
                             <div className="card-body">
                                 <h5 className="card-title">Employee Tracker</h5>
+                                <p>
+                                This is a command line application that provides a employer a complete CMS database so they have the ability to view employees, 
+                                view roles, view departments, add employees, add roles, add departments, and update employee records all from the command line prompt.
+                                </p>
                                 <p className="card-text">
                                     Languages/Other used to bulid this project:<br/>
                                      SQL | JS | npm inquirer | npm chalk
@@ -73,6 +80,10 @@ export default function Portfolio() {
                         </div>
                         <div className="card-body">
                             <h5 className="card-title">Node Generated ReadeMe</h5>
+                            <p>
+                            You can quickly and easily generate a README file by using a command-line 
+                            application to generate one. This allows the project creator to devote more time working on the project.
+                            </p>
                             <p className="card-text">
                                 Languages/Other used to bulid this project:<br/>
                                  JS | npm | Node.Js
@@ -90,6 +101,10 @@ export default function Portfolio() {
                         </div>
                         <div className="card-body">
                             <h5 className="card-title">Team Profile Generator</h5>
+                            <p>
+                            This app will let you use Node.js command line application that will take 
+                            information about employees on a team and will generate a HTML page that shows the summaries for each person.
+                            </p>
                             <p className="card-text">
                                 Languages/Other used to bulid this project:<br/>
                                  JS | npm | Node.Js | Object Oriented Programming
@@ -106,7 +121,12 @@ export default function Portfolio() {
                             <img src={WeatherAPI} className="img-fluid" alt="Screenshot of a team profile generator app that will generate a progile of your team" />
                         </div>
                         <div className="card-body">
-                            <h5 className="card-title">Team Profile Generator</h5>
+                            <h5 className="card-title">Weather Scaner</h5>
+                            <p>
+                            Weather Scaner, is project is designed to display the current and five day weather forcast of a given city that you are visiting 
+                            as a traveler.
+                
+                            </p>
                             <p className="card-text">
                                 Languages/Other used to bulid this project:<br/>
                                  HTML | CSS | JS | Server side API
@@ -124,6 +144,10 @@ export default function Portfolio() {
                         </div>
                         <div className="card-body">
                             <h5 className="card-title">Book Finder "Group project"</h5>
+                            <p>
+                                Book finder is a project that will help book enthusiast and anyone that wants to look for there
+                                next book to read and also save it to a list to keep track of the books that will be next
+                            </p>
                             <p className="card-text">
                                 Languages/Other used to bulid this project:<br/>
                                  HTML | CSS | JS | Server side API
